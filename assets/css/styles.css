@@ -1,13 +1,12 @@
 body {
-  font-family: sans-serif;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   min-height: 100vh;
-  margin: 0;
-  background-color: white;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 70px;
+  color: #202124;
 }
 
 #search-container {
@@ -59,4 +58,41 @@ body {
   text-align: center;
   cursor: pointer;
   user-select: none;
+}
+
+.header,
+.header-links,
+.header-advanced-logo,
+.header-advanced {
+  display: flex;
+  align-items: center;
+}
+.header a,
+.header-links a,
+.header-advanced-logo a,
+.header-advanced a {
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+}
+.header-advanced {
+  background-color: #f1f1f1;
+  height: 50px;
+}
+.header-advanced-logo {
+  padding: 10px;
+}
+.header-advanced-logo img {
+  height: 30px;
+}
+.header-links {
+  margin-left: auto;
+}
+
+#google-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
 }
